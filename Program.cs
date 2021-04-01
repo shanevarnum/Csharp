@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DemographicAnalyticalReportsVarn
+namespace TicTacToeSimulatorVarnum
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace DemographicAnalyticalReportsVarn
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormReports());
+            Application.Run(new Form1());
         }
     }
 }
